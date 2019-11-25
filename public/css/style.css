@@ -1,0 +1,109 @@
+
+.ak-tb-search {
+  width: 40%;
+  padding-bottom: 0;
+}
+
+.ak-fr-search {
+  border:0;
+  margin-bottom: 0px;
+}
+
+.ak-wrap {
+  border:1px solid #000;
+}
+
+div.material-table .table-footer {
+  height: 76px;
+  padding-left: 24px;
+  padding-right: 14px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 12px !important;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+div.material-table .table-footer .dataTables_length {
+  display: -webkit-flex;
+  display: flex;
+}
+
+div.material-table .table-footer label {
+  font-size: 15px;
+  color: #000;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row
+  /* works with row or column */
+  
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+div.material-table .table-footer .select-wrapper {
+  width: 30px;
+}
+
+div.material-table .table-footer .dataTables_info {
+  margin-right: 40px;
+}
+
+div.material-table .table-footer .dataTables_length {
+  width: 180px;
+  padding-right: 10px;
+  margin-right: 32px;
+  padding: 10px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.material-table .table-footer .material-pagination {
+  display: flex;
+  -webkit-display: flex;
+  margin: 0;
+}
+
+div.material-table .table-footer .material-pagination li:first-child {
+  margin-right: 24px;
+}
+
+div.material-table .table-footer .material-pagination li a {
+  color: #000;
+}
+
+div.material-table .table-footer .select-wrapper input.select-dropdown {
+  margin: 0;
+  border:none;
+  height: auto;
+  line-height: normal;
+  font-size: 12px;
+  width: 40px;
+  text-align: right;
+}
+
+div.material-table .table-footer select {
+  background-color: transparent;
+  width: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  height: auto;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  div.dt-buttons {
+    float: none !important;
+    text-align: center;
+  }
+}
